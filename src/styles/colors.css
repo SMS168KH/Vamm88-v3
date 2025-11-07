@@ -1,0 +1,37 @@
+/* Custom Gold Color Palette inspired by gradient */
+@layer utilities {
+  /* Primary gold colors matching the gradient */
+  .bg-gold-light { background-color: #F4D889; }
+  .bg-gold { background-color: #E6C75F; }
+  .bg-gold-dark { background-color: #C9A961; }
+  .bg-gold-darker { background-color: #B89544; }
+  
+  .text-gold-light { color: #F4D889; }
+  .text-gold { color: #E6C75F; }
+  .text-gold-dark { color: #C9A961; }
+  .text-gold-darker { color: #B89544; }
+  
+  .border-gold-light { border-color: #F4D889; }
+  .border-gold { border-color: #E6C75F; }
+  .border-gold-dark { border-color: #C9A961; }
+  .border-gold-darker { border-color: #B89544; }
+  
+  /* Gradient utilities */
+  .bg-gradient-gold {
+    background: linear-gradient(135deg, #F4D889 0%, #C9A961 100%);
+  }
+  
+  .bg-gradient-gold-horizontal {
+    background: linear-gradient(90deg, #C9A961 0%, #F4D889 50%, #C9A961 100%);
+  }
+  
+  .bg-gradient-gold-reverse {
+    background: linear-gradient(135deg, #C9A961 0%, #F4D889 100%);
+  }
+  
+  /* Dark backgrounds */
+  .bg-dark { background-color: #000000; }
+  .bg-dark-light { background-color: #0a0a0a; }
+  .bg-dark-card { background-color: #111111; }
+  .bg-dark-elevated { background-color: #1a1a1a; }
+}
